@@ -235,13 +235,14 @@ XeonLft = await getBuffer(ppuser)
                 const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
 	            const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
 	            const xmembers = metadata.participants.length
-                xeonbody = `┌─❖
-│✑ Welcome buddy @${xeonName.split("@")[0]} 
-│✑ *Joined:* ${metadata.subject} 
-│✑ *Members:* ${xmembers}
-│✑  Joined:
-│✑ ${xtime} ${xdate}
-└───────────────┈ ⳹`
+                xeonbody = `*🫠 Welcome @${xeonName.split("@")[0]} 🤗* 
+
+✨ *Thanks for going:* ${metadata.subject} 
+
+✨ *We're now:* ${xmembers} members.
+
+✨ *Joined at:* ${xtime} ${xdate}
+> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴇʟɪᴛᴇᴘʀᴏ*`
 EliteProEmpire.sendMessage(anu.id,
  { text: xeonbody,
  contextInfo:{
@@ -249,7 +250,7 @@ EliteProEmpire.sendMessage(anu.id,
  "externalAdReply": {"showAdAttribution": true,
  "containsAutoReply": true,
  "title": ` ${global.botname}`,
-"body": `${ownername}`,
+"body": `Welcome dear to the group 🫠🫠`,
  "previewType": "PHOTO",
 "thumbnailUrl": ``,
 "thumbnail": XeonWlcm,
@@ -260,13 +261,14 @@ EliteProEmpire.sendMessage(anu.id,
 	                const xeondate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
                 	let xeonName = num
                     const xeonmembers = metadata.participants.length
-                    xeonbody = `┌─❖
-│✑ Goodbye buddy @${xeonName.split("@")[0]} 
-│✑ *Left:* ${metadata.subject} 
-│✑ *Members:*  ${xeonmembers}
-│✑  Left:
-│✑ ${xeontime} ${xeondate}
-└───────────────┈ ⳹`
+                    xeonbody = `😔 *Goodbye @${xeonName.split("@")[0]} 😤* 
+ 
+💥 *Left from:* ${metadata.subject} 
+
+💥 *We're now:* ${xeonmembers} members.
+
+💥 *Left at:* ${xeontime} ${xeondate} 
+> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴇʟɪᴛᴇᴘʀᴏ*`
 EliteProEmpire.sendMessage(anu.id,
  { text: xeonbody,
  contextInfo:{
@@ -274,7 +276,7 @@ EliteProEmpire.sendMessage(anu.id,
  "externalAdReply": {"showAdAttribution": true,
  "containsAutoReply": true,
  "title": ` ${global.botname}`,
-"body": `${ownername}`,
+"body": `Where going too miss you here 😮‍💨🥺`,
  "previewType": "PHOTO",
 "thumbnailUrl": ``,
 "thumbnail": XeonLft,
